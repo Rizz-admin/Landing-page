@@ -38,3 +38,20 @@ body {
     font-size: 48px;
     font-weight: 900;
 }
+
+.text {
+    font-size: 18px;
+}
+
+button {
+    background-color: #3882F6;
+    color:#eee;
+    font-weight: bold;
+    border: 0;
+    border-radius: 6px;
+    padding: 8px;
+}
+
+.text-button {
+    margin: 10px;
+}
