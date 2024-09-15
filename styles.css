@@ -116,4 +116,53 @@ blockquote {
     margin-right: 200px;
 }
 
+/*styling forth part of content*/
 
+.forth {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {    
+    background-color: #3882F6;
+    color: white;
+    margin: 70px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.container-left , .container-right {
+    padding: 50px;
+}
+
+.container-left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.container-right {
+    margin-right: 100px;
+    align-self: center;
+}
+
+.container-text-f {
+    font-size: 36px;
+    font-weight: 900;
+} 
+
+.b2 {
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+}
+
+.b2-text {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 18px;
+    margin-right: 18px;
+}
