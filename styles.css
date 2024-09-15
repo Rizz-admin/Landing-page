@@ -1,6 +1,19 @@
+/* configuration of html file*/ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+
 body {
+    min-height: 100%;
+    width: 100%;
     font-family: Roboto, sans-serif;
 }
+
 /* styling header */
 
 .header {
@@ -162,6 +175,8 @@ blockquote {
     justify-content: center;
     align-items: center;
     color: white;
+    margin-bottom: auto;
+    
 }
 
 /* styling button in forth part of a content */
