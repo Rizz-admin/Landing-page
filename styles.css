@@ -1,6 +1,8 @@
 body {
     font-family: Roboto, sans-serif;
 }
+/* styling header */
+
 .header {
     background-color: #1F2937;
     color: #eee;
@@ -28,10 +30,21 @@ body {
     font-weight: bold;
 }
 
+/* styling first part of content*/
+
 .first {
     background-color: #1F2937;
     color: #eee;
     display: flex;
+    padding-bottom: 100px;
+}
+
+.first-left {
+    margin-left: 200px;
+}
+
+.first-right {
+    margin-right: 200px;
 }
 
 .h1 {
@@ -42,6 +55,8 @@ body {
 .text {
     font-size: 18px;
 }
+
+/*styling button*/
 
 button {
     background-color: #3882F6;
@@ -54,4 +69,35 @@ button {
 
 .text-button {
     margin: 10px;
+}
+
+/*styling second part of content*/
+.second {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+/*styling third part of content*/
+
+.third {
+    background-color: #E5E7EB;
+}
+
+blockquote {
+    padding: 50px;
 }
