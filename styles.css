@@ -96,8 +96,24 @@ button {
 
 .third {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
 }
 
 blockquote {
     padding: 50px;
 }
+
+.quote {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.quote-footer {
+    margin-right: auto;
+    display: flex;
+    justify-content: end;
+    margin-right: 200px;
+}
+
+
