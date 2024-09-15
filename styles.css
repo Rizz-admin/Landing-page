@@ -154,16 +154,6 @@ blockquote {
     font-weight: 900;
 } 
 
-.b2 {
-    border: solid;
-    border-width: 1px;
-    border-radius: 6px;
-}
-
-.b2-text {
-  
-}
-
 /* styling footer */
 
 .footer {
@@ -172,4 +162,24 @@ blockquote {
     justify-content: center;
     align-items: center;
     color: white;
+}
+
+/* styling button in forth part of a content */
+
+.b2 {
+    background-color: #3882F6;
+    border: solid;
+    border-width: 1px;
+    border-radius: 6px;
+    color: white;
+    font-weight: 900;
+    display: flex;
+}
+
+.b2-text {
+    text-wrap: nowrap;
+    margin-top:4px;
+    margin-bottom:4px;
+    margin-left:16px;
+    margin-right:16px;
 }
