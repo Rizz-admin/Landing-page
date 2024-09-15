@@ -56,9 +56,9 @@ body {
     font-size: 18px;
 }
 
-/*styling button*/
+/*styling button in first part of content*/
 
-button {
+.b1 {
     background-color: #3882F6;
     color:#eee;
     font-weight: bold;
@@ -161,10 +161,7 @@ blockquote {
 }
 
 .b2-text {
-    margin-top: 2px;
-    margin-bottom: 2px;
-    margin-left: 18px;
-    margin-right: 18px;
+  
 }
 
 /* styling footer */
