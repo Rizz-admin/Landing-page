@@ -108,10 +108,46 @@ body {
 
 .bottom {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 30px;
     font-size: 12px;
     margin-bottom: 80px;
+}
+
+.img1 {
+    width: 100px;
+}
+
+.img2 {
+    width: 100px;
+}
+
+.img3 {
+    width: 100px;
+}
+
+.img4 {
+    width: 100px;
+}
+
+.i1 {
+    height: 100px;
+    width: 100px;
+}
+
+.i2 {
+    height: 100px;
+    width: 100px;
+}
+
+.i3 {
+    height: 100px;
+    width: 100px;
+}
+
+.i4 {
+    height: 100px;
+    width: 100px;
 }
 
 /*styling third part of content*/
