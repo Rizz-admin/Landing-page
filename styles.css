@@ -216,6 +216,7 @@ blockquote {
     display: flex;
     justify-content: space-between;
     gap: 50px;
+    border-radius: 6px;
 }
 
 .container-left {
@@ -232,12 +233,13 @@ blockquote {
 }
 
 .container-text-f {
-    font-size: 36px;
+    font-size: 18px;
     font-weight: 900;
 } 
 
+
 .container-text-s {
-    font-size: 18px;
+    font-size: 12px;
 }
 
 
