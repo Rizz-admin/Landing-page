@@ -8,9 +8,9 @@
 body {
     min-height: 100vh;
     width: 100%;
-    font-family: Roboto, sans-serif;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", sans-serif;
 }
 
 /* styling header */
@@ -187,14 +187,17 @@ blockquote {
     width: 700px;
     font-style: italic; 
     font-size: 36px;
-    font-weight: 100;
+    font-weight: 300;
+    color:#1F2937;
 }
 
 .quote-footer {
+    margin-top: 10px;
     margin-right: auto;
     display: flex;
     justify-content: end;
     margin-right: 200px;
+    font-weight: bold;
 }
 
 /*styling forth part of content*/
