@@ -117,39 +117,55 @@ body {
 }
 
 .img1 {
-    width: 100px;
+    width: 125px;
 }
 
 .img2 {
-    width: 100px;
+    width: 125px;
 }
 
 .img3 {
-    width: 100px;
+    width: 125px;
 }
 
 .img4 {
-    width: 100px;
+    width: 125px;
 }
 
 .i1 {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-radius: 6px;
 }
 
 .i2 {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-radius: 6px;
 }
 
 .i3 {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-radius: 6px;
 }
 
 .i4 {
-    height: 100px;
-    width: 100px;
+    height: 125px;
+    width: 125px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 2px;
+    border-radius: 6px;
 }
 
 /*styling third part of content*/
