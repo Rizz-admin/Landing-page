@@ -19,23 +19,26 @@ body {
     background-color: #1F2937;
     color: #eee;
     display: flex;
-    justify-content: space-between;
-}
-
-.header-right , .header-left {
-    display: flex;
+    justify-content: center;
+    gap: 180px;
 }
 
 .header-right {
-    gap: 20px;
-    margin-right: 200px;
-    justify-content: center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    gap: 20px;
+    text-wrap: nowrap;
+    margin-right: 200px;
 }
 
 .header-left {
+    display: flex;
+    margin-left: 0px;
+    text-wrap: nowrap;
     margin-left: 200px;
 }
+
 
 .logo {
     font-size: 24px;
@@ -50,9 +53,10 @@ body {
     display: flex;
     padding-bottom: 100px;
     padding-top: 100px;
-    gap: 50px;
     justify-content: center;
+    gap: 50px;
 }
+
 
 .first-left {
     margin-left: 200px;
@@ -104,6 +108,7 @@ body {
 }
 
 .h2 {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
     font-size: 36px;
